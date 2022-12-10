@@ -1,0 +1,110 @@
+.cards-container {
+    width: 700px;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.card {
+    border-radius: 0.5rem;
+    background-color: rgb(255, 255, 255, 0.4);
+    margin-bottom: 50px;
+    width: 300px;
+    height: 350px;
+    display: block;
+    transition: 0.5s;
+}
+
+.card:hover {
+    color: var(--hexagon-dark);
+    background-color: rgb(255, 255, 255, 1);
+    margin-top: -15px;
+}
+
+.card-content {
+    margin: 1rem;
+    height: 18rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+}
+
+img {
+    width: 100%;
+}
+
+.card-button-container {
+    display: flex;
+    justify-content: space-between;
+    width: 11rem;
+
+}
+
+.card-button {
+    color: var(--light-color);
+    border: thin solid var(--light-color);
+    border-radius: 5px;
+    padding: 5px 10px;
+    background-color: Transparent;
+    text-decoration: none;
+    transition: none;
+}
+
+.card-button:hover {
+    cursor: pointer;
+    transition: background-color none none;
+    background-color: rgba(0, 0, 0, 20%);
+}
+
+.card:hover .card-button {
+    color: var(--hexagon-dark);
+    border: thin solid var(--hexagon-dark);
+    padding: 5px 10px;
+}
+
+
+.project-button-container {
+    width: 50%;
+    margin: auto;
+    display: flex;
+    justify-content: center;
+}
+
+/* ## CUSTOM BUTTON CSS ## */
+
+.project-button {
+    --button_radius: 0.75em;
+    --button_color: #e8e8e8;
+    --button_outline_color: #000000;
+    font-size: 1rem;
+    font-weight: bold;
+    border: none;
+    border-radius: var(--button_radius);
+    background: var(--button_outline_color);
+    margin-bottom: 2rem;
+}
+
+.button_top {
+    display: block;
+    box-sizing: border-box;
+    border: 2px solid var(--button_outline_color);
+    border-radius: var(--button_radius);
+    padding: 1rem 1.75em;
+    background: var(--button_color);
+    color: var(--button_outline_color);
+    text-decoration: none;
+    transform: translateY(-0.2em);
+    transition: transform 0.1s ease;
+}
+
+.project-button:hover .button_top {
+    /* Pull the button upwards when hovered */
+    transform: translateY(-0.33em);
+}
+
+.project-button:active .button_top {
+    /* Push the button downwards when pressed */
+    transform: translateY(0);
+}

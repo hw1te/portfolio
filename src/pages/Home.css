@@ -1,0 +1,60 @@
+:root {
+    --light-color: rgb(252, 234, 249);
+    --hexagon-light: rgba(6, 80, 156, 0.93);
+    --hexagon-dark: rgba(3, 48, 93, 1);
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    position: relative;
+    font-family: "Neue Haas Grotestk Display", sans-serif;
+}
+
+body {
+    color: var(--light-color);
+    width: 100%;
+    background-image: url('Hexagon.svg');
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+span {
+    color: rgb(6, 130, 255);
+}
+
+.stack-title {
+    font-weight: 600;
+}
+
+.stack-ul {
+    margin-top: 1rem;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    margin-top: 115px;
+    margin-bottom: 70px;
+    height: auto;
+    width: 60%;
+
+}
+
+.home-paragraph {
+    width: 350px;
+    text-align: left;
+}
+
+.columns-container {
+    margin-top: 200px;
+    width: 300px;
+    display: flex;
+    justify-content: space-between;
+}
+
+
+li {
+    list-style-type: none;
+}
