@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/static/css/main.3b4ed936.css",
-    "main.js": "/static/js/main.70b8f0e2.js",
+    "main.js": "/static/js/main.d04ded6b.js",
     "static/js/787.1ed0c42c.chunk.js": "/static/js/787.1ed0c42c.chunk.js",
     "static/media/Gustavo Pospi - Currículo.pdf": "/static/media/Gustavo Pospi - Currículo.9f8662663d71a94b9828.pdf",
     "static/media/Gustavo Pospi - Resume.pdf": "/static/media/Gustavo Pospi - Resume.65a34fd808f905f129ba.pdf",
@@ -12,11 +12,11 @@
     "static/media/gmail.svg": "/static/media/gmail.026308cc5ad278713f3c2ede5c2c27da.svg",
     "index.html": "/index.html",
     "main.3b4ed936.css.map": "/static/css/main.3b4ed936.css.map",
-    "main.70b8f0e2.js.map": "/static/js/main.70b8f0e2.js.map",
+    "main.d04ded6b.js.map": "/static/js/main.d04ded6b.js.map",
     "787.1ed0c42c.chunk.js.map": "/static/js/787.1ed0c42c.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.3b4ed936.css",
-    "static/js/main.70b8f0e2.js"
+    "static/js/main.d04ded6b.js"
   ]
 }
