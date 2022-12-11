@@ -141,3 +141,13 @@ button:active .button_top {
     color: var(--light-color);
     font-size: 0.75rem;
 }
+
+/* @keyframes slideIn {
+    from {
+        transform: translateY(-30px);
+    }
+
+    to {
+        transform: translateY(0);
+    }
+} */
