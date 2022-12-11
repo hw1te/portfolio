@@ -23,7 +23,7 @@ export default function Contacts() {
                         <p>Por onde eu posto os meus avanços profissionais e técnicos, demonstro projetos e envio certificados que adquiri. Venha me Acompanhar.</p>
                         <div className="link-container">
                             <i class="gg-attachment"></i>
-                            <a className="contact-link" target="_blank" rel="no" href="https://www.linkedin.com/in/gustavopospi/">Ver perfil</a>
+                            <a className="contact-link" target="_blank" rel="noopener noreferrer" href="https://www.linkedin.com/in/gustavopospi/">Ver perfil</a>
                         </div>
                     </div>
                     {/* # Card 2 */}
@@ -35,7 +35,7 @@ export default function Contacts() {
                         <p>No meu perfil você vai poder me conhecer melhor e ver todos os projetos que já publiquei, estou desenvolvedo e projetos que pretendo dar continuação.</p>
                         <div className="link-container">
                             <i class="gg-attachment"></i>
-                            <a className="contact-link" target="_blank" rel="no" href="https://github.com/hw1te">Ver perfil</a>
+                            <a className="contact-link" target="_blank" rel="noopener noreferrer" href="https://github.com/hw1te">Ver perfil</a>
                         </div>
                     </div>
                 </div>
@@ -50,7 +50,7 @@ export default function Contacts() {
                         <p>Me mande um e-mail sobre ideias, feedbacks ou até mesmo propostas, sempre estou aberto a conversar.</p>
                         <div className="link-container">
                             <i class="gg-attachment"></i>
-                            <a className="contact-link" target="_blank" rel="no" href="mailto:gutxander@gmail.com">Enviar e-mail</a>
+                            <a className="contact-link" target="_blank" rel="noopener noreferrer" href="mailto:gutxander@gmail.com">Enviar e-mail</a>
                         </div>
                     </div>
                     {/* # Card 4 */}
