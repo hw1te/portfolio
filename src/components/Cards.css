@@ -79,10 +79,11 @@ img {
 
 
 .project-button-container {
-    width: 50%;
+    width: 100%;
     margin: auto;
     display: flex;
-    justify-content: center;
+    justify-content: space-evenly;
+    align-items: baseline;
 }
 
 /* ## CUSTOM BUTTON CSS ## */
@@ -93,7 +94,7 @@ img {
     --button_color: var(--light-color);
     --button_outline_color: var(--lighter-color);
     font-size: 1.25rem;
-    margin-bottom: 3rem;
+    margin-bottom: 2rem;
     font-weight: bold;
     border: none;
     border-radius: var(--button_radius);
@@ -121,4 +122,22 @@ img {
 button:active .button_top {
     /* Push the button downwards when pressed */
     transform: translateY(0);
+}
+
+/* ################################################# */
+
+.copyright {
+    font-size: 0.75rem;
+}
+
+.footer-list {
+    display: flex;
+    justify-content: space-between;
+    width: 7rem;
+}
+
+.footer-links {
+    text-decoration: none;
+    color: var(--light-color);
+    font-size: 0.75rem;
 }
