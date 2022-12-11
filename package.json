@@ -22,7 +22,7 @@
     "predeploy": "npm run build",
     "deploy": "gh-pages -d build"
   },
-  "homepage": "https://hw1te.github.io/portfolio",
+  "homepage": "https://hw1te.github.io/",
   "eslintConfig": {
     "extends": [
       "react-app",
