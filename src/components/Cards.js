@@ -6,15 +6,18 @@ export default function Cards() {
 
     return (
         <>
+            <div className="projects-title-container">
+                <h1>Projetos de Destaque</h1>
+            </div>
             <div className="cards-container">
                 {/* Card 1 */}
                 <div className="card">
                     <div className="card-content">
                         <img alt="Project Display" src={ComingSoon} />
                         <h1>Trybewallet</h1>
-                        <p>aaaaaaaa</p>
+                        <p>Uma carteira digital onde você pode controlar seus gastos internacionais com um conversor de moedas.</p>
                         <div className="card-button-container">
-                            <a href="#"><button className="card-button">Repositório</button></a>
+                            <a href="https://github.com/hw1te/project-trybewallet" target="_blank" rel="noreferrer"><button className="card-button">Repositório</button></a>
                             <a href="#"><button className="card-button">Git Page</button></a>
                         </div>
                     </div>
@@ -24,10 +27,9 @@ export default function Cards() {
                     <div className="card-content">
                         <img alt="Project Display" src={ComingSoon} />
                         <h1>Blogs API</h1>
-                        <p>aaaaaaaa</p>
+                        <p>Um CRUD de posts para um Blog junto com uma API, banco de dados e autenticação JWT para usuários.</p>
                         <div className="card-button-container">
-                            <a href="#"><button className="card-button">Repositório</button></a>
-                            <a href="#"><button className="card-button">Git Page</button></a>
+                            <a href="https://github.com/hw1te/project-blogs-api" target="_blank" rel="noreferrer"><button className="card-button">Repositório</button></a>
                         </div>
                     </div>
                 </div>

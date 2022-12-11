@@ -1,6 +1,17 @@
+.projects-title-container {
+    display: flex;
+    justify-content: center;
+}
+
+.projects-title-container h1 {
+    font-size: 2rem;
+}
+
 .cards-container {
     width: 700px;
     margin: auto;
+    margin-top: 4rem;
+    margin-bottom: 4rem;
     display: flex;
     justify-content: space-between;
 }
@@ -9,7 +20,6 @@
 .card {
     border-radius: 0.5rem;
     background-color: rgb(255, 255, 255, 0.4);
-    margin-bottom: 50px;
     width: 300px;
     height: 350px;
     display: block;
@@ -22,9 +32,10 @@
     margin-top: -15px;
 }
 
+
 .card-content {
     margin: 1rem;
-    height: 18rem;
+    height: 20rem;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -37,8 +48,9 @@ img {
 
 .card-button-container {
     display: flex;
-    justify-content: space-between;
-    width: 11rem;
+    align-content: center;
+    justify-content: space-around;
+    width: 12rem;
 
 }
 
@@ -47,6 +59,7 @@ img {
     border: thin solid var(--light-color);
     border-radius: 5px;
     padding: 5px 10px;
+    align-self: center;
     background-color: Transparent;
     text-decoration: none;
     transition: none;
@@ -75,26 +88,27 @@ img {
 /* ## CUSTOM BUTTON CSS ## */
 
 .project-button {
+    /* Variables */
     --button_radius: 0.75em;
-    --button_color: #e8e8e8;
-    --button_outline_color: #000000;
-    font-size: 1rem;
+    --button_color: var(--light-color);
+    --button_outline_color: var(--lighter-color);
+    font-size: 1.25rem;
+    margin-bottom: 3rem;
     font-weight: bold;
     border: none;
     border-radius: var(--button_radius);
-    background: var(--button_outline_color);
-    margin-bottom: 2rem;
+    background: var(--lighter-color);
 }
 
 .button_top {
+    text-decoration: none;
     display: block;
     box-sizing: border-box;
     border: 2px solid var(--button_outline_color);
     border-radius: var(--button_radius);
-    padding: 1rem 1.75em;
+    padding: 1em 1.75em;
     background: var(--button_color);
     color: var(--button_outline_color);
-    text-decoration: none;
     transform: translateY(-0.2em);
     transition: transform 0.1s ease;
 }
@@ -104,7 +118,7 @@ img {
     transform: translateY(-0.33em);
 }
 
-.project-button:active .button_top {
+button:active .button_top {
     /* Push the button downwards when pressed */
     transform: translateY(0);
 }
