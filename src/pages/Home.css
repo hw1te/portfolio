@@ -1,10 +1,3 @@
-:root {
-    --light-color: rgb(252, 234, 249);
-    --lighter-color: rgb(6, 130, 255);
-    --hexagon-light: rgba(6, 80, 156, 0.93);
-    --hexagon-dark: rgba(3, 48, 93, 1);
-}
-
 * {
     padding: 0;
     margin: 0;
@@ -33,6 +26,7 @@ span {
 }
 
 .container {
+    animation: slideIn 1.2s;
     display: flex;
     justify-content: space-between;
     margin: auto;
@@ -58,4 +52,14 @@ span {
 
 li {
     list-style-type: none;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(-40px);
+    }
+
+    to {
+        transform: translateX(0px);
+    }
 }

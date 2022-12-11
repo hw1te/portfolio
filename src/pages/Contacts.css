@@ -1,0 +1,87 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+}
+
+.contacts-container {
+    font-size: 1.25rem;
+}
+
+.contacts-title {
+    display: flex;
+    width: fit-content;
+    align-items: center;
+}
+
+.logo-image {
+    margin-right: 10px;
+}
+
+.contact-link {
+    color: var(--lighter-color);
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.contact-link:hover {
+    color: rgb(45, 150, 255);
+    text-decoration: underline;
+}
+
+.link-container {
+    display: flex;
+}
+
+/* ## CUSTOM IMAGE CSS*/
+
+.gg-attachment {
+    color: var(--lighter-color);
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    width: 7px;
+    height: 7px;
+    border: 1px solid;
+    border-top: 0;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    transform: scale(var(--ggs, 1));
+    margin-top: 5.5px;
+    margin-right: 10px;
+}
+
+.gg-attachment::after,
+.gg-attachment::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    border: 1px solid
+}
+
+.gg-attachment::after {
+    border-bottom: 0;
+    border-top-left-radius: 100px;
+    border-top-right-radius: 100px;
+    right: -1px;
+    width: 5px;
+    height: 7px;
+    bottom: 4px
+}
+
+.gg-attachment::before {
+    width: 3px;
+    height: 6px;
+    border-top: 0;
+    border-bottom-left-radius: 100px;
+    border-bottom-right-radius: 100px;
+    left: 1px;
+    bottom: 2px
+}
