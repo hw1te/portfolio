@@ -3,20 +3,27 @@
     padding: 0;
 }
 
-.container {
+.contacts-page-container {
     display: flex;
+    margin: auto;
     justify-content: space-between;
     width: 80%;
+    margin-top: 75px;
 }
 
 .contacts-container {
-    font-size: 1.25rem;
+    margin: auto;
+    width: 69%;
+    font-size: 1.20rem;
+    text-align: left;
+    margin-bottom: 2rem;
 }
 
 .contacts-title {
     display: flex;
     width: fit-content;
     align-items: center;
+    margin-bottom: 0.75rem;
 }
 
 .logo-image {
@@ -24,21 +31,63 @@
 }
 
 .contact-link {
+    margin-top: 0.25rem;
     color: var(--lighter-color);
     text-decoration: none;
     font-size: 0.75rem;
 }
 
-.contact-link:hover {
-    color: rgb(45, 150, 255);
-    text-decoration: underline;
-}
+
 
 .link-container {
     display: flex;
 }
 
-/* ## CUSTOM IMAGE CSS*/
+.download-container {
+    width: 30%;
+    display: flex;
+    margin: auto;
+    align-items: baseline;
+    flex-direction: column;
+}
+
+.resume-attachment {
+    margin: auto;
+}
+
+.download-title {
+    display: flex;
+    width: fit-content;
+    margin-bottom: 0.75rem;
+}
+
+.download-paragraph {
+    width: 230px;
+    margin-bottom: 0.75rem;
+}
+
+.download-link-container {
+    display: flex;
+}
+
+.resume-paragraph {
+    font-weight: bold;
+    font-size: 0.75rem;
+    margin: 0.25rem;
+}
+
+.download-link {
+    color: var(--lighter-color);
+    text-decoration: none;
+    font-size: 0.75rem;
+}
+
+.download-link:hover {
+    color: rgb(45, 150, 255);
+    text-decoration: underline;
+}
+
+/* ## CUSTOM  CLIP IMAGE CSS*/
 
 .gg-attachment {
     color: var(--lighter-color);
@@ -84,4 +133,48 @@
     border-bottom-right-radius: 100px;
     left: 1px;
     bottom: 2px
+}
+
+/* ## CUSTOM DOWNLOAD IMAGE CSS */
+
+.gg-software-download {
+    box-sizing: border-box;
+    position: relative;
+    display: block;
+    transform: scale(var(--ggs, 1));
+    width: 16px;
+    height: 6px;
+    border: 2px solid;
+    border-top: 0;
+    border-bottom-left-radius: 2px;
+    border-bottom-right-radius: 2px;
+    margin-top: 8px;
+    margin-right: 10px;
+}
+
+.gg-software-download::after {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    width: 8px;
+    height: 8px;
+    border-left: 2px solid;
+    border-bottom: 2px solid;
+    transform: rotate(-45deg);
+    left: 2px;
+    bottom: 4px
+}
+
+.gg-software-download::before {
+    content: "";
+    display: block;
+    box-sizing: border-box;
+    position: absolute;
+    border-radius: 3px;
+    width: 2px;
+    height: 10px;
+    background: currentColor;
+    left: 5px;
+    bottom: 5px
 }

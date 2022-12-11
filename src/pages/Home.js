@@ -8,7 +8,7 @@ export default function Home() {
     return (
         <>
             <Navbar />
-            <div className="container">
+            <div className="home-page-container">
                 <div className="text-container">
                     <h1>Gustavo Pospi</h1>
                     <br />

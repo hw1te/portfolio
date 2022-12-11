@@ -25,7 +25,7 @@ span {
     margin-top: 1rem;
 }
 
-.container {
+.home-page-container {
     animation: slideIn 1.2s;
     display: flex;
     justify-content: space-between;
