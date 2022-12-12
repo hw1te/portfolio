@@ -35,14 +35,9 @@ export default function Cards() {
                 </div>
             </div>
             <div className="project-button-container">
-                <p className="copyright">Gustavo Pospi ©</p>
                 <button className="project-button">
                     <a href="/projects" class="button_top"> Ver mais </a>
                 </button>
-                <ul className="footer-list">
-                    <a className="footer-links" href="/contacts"><li>Contatos</li></a>
-                    <a className="footer-links" href="/about"><li>Sobre</li></a>
-                </ul>
             </div>
         </>
     )

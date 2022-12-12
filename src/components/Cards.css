@@ -126,21 +126,7 @@ button:active .button_top {
 
 /* ################################################# */
 
-.copyright {
-    font-size: 0.75rem;
-}
 
-.footer-list {
-    display: flex;
-    justify-content: space-between;
-    width: 7rem;
-}
-
-.footer-links {
-    text-decoration: none;
-    color: var(--light-color);
-    font-size: 0.75rem;
-}
 
 /* @keyframes slideIn {
     from {
