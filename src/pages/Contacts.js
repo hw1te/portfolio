@@ -12,7 +12,6 @@ export default function Contacts() {
 
     return (
         <>
-            <Navbar />
             <div className="contacts-page-container">
                 <div>{/* # Card 1 */}
                     <div className="contacts-container">

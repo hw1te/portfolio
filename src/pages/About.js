@@ -6,7 +6,6 @@ export default function About() {
 
     return (
         <>
-            <Navbar />
             <div className="about-container">
                 <img className="typing-cat-gif" alt="fidget spinner" src="https://media.giphy.com/media/K3fXQ1YWZFUFBIF4mM/giphy.gif" />
                 <div className="about-paragraph-title">
