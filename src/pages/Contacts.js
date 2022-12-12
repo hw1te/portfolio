@@ -1,12 +1,11 @@
 import React from 'react';
-import Navbar from '../components/Navbar';
 import "./Contacts.css"
-import LinkedIn from "./images/linkedin.svg"
-import GitHub from "./images/github.svg"
-import Gmail from "./images/gmail.svg"
-import WhatsApp from "./images/whatsapp.svg"
-import Curriculo from "./arquivos/Gustavo Pospi - Currículo.pdf"
-import Resume from "./arquivos/Gustavo Pospi - Resume.pdf"
+import LinkedIn from "../images/linkedin.svg"
+import GitHub from "../images/github.svg"
+import Gmail from "../images/gmail.svg"
+import WhatsApp from "../images/whatsapp.svg"
+import Curriculo from "../arquivos/Gustavo Pospi - Currículo.pdf"
+import Resume from "../arquivos/Gustavo Pospi - Resume.pdf"
 
 export default function Contacts() {
 

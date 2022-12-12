@@ -1,5 +1,5 @@
 import React from 'react';
-import ComingSoon from './coming soon.jpg'
+import ComingSoon from '../images/coming soon.jpg'
 import './Cards.css'
 
 export default function Cards() {
@@ -29,7 +29,7 @@ export default function Cards() {
                         <h1>Blogs API</h1>
                         <p>Um CRUD de posts para um Blog junto com uma API, banco de dados e autenticação JWT para usuários.</p>
                         <div className="card-button-container">
-                            <a href="https://github.com/hw1te/project-blogs-api" target="_blank" rel="noreferrer"><button className="card-button">Repositório</button></a>
+                            <a href="https://github.com/hw1te/project-blogs-api" target="_blank" rel="noreferrer noopener"><button className="card-button">Repositório</button></a>
                         </div>
                     </div>
                 </div>
