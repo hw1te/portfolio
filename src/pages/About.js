@@ -13,7 +13,7 @@ export default function About() {
             <div className="about-paragraph-container">
                 <p> Quando não estou trabalhando gosto de <span>assistir algo, jogar</span> ou <span>ler</span>. Todo dia vou na academia, de preferência de manhã, quando a temperatura está mais agradevel.</p>
                 <br />
-                <p><span>Tenho uma gata preta</span> que adotei quando ela era filhote, toda vez que estou no computador ela vem no meu quarto dormir perto de mim ou em cima da CPU.</p>
+                <p><span>Tenho</span> uma <span>gata preta</span> que adotei quando era filhote, toda vez que estou no computador ela vem dormir perto de mim ou em cima da CPU.</p>
             </div>
         </div>
     )
