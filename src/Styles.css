@@ -1,0 +1,115 @@
+@media screen and (min-width: 1400px) {
+    .home-page-container {
+        margin-bottom: 100px;
+        font-size: 1.1rem;
+    }
+
+    .columns-container {
+        margin-top: 242px;
+    }
+
+    .cards-container {
+        margin-top: 83px;
+        margin-bottom: 83px;
+    }
+
+    .card-content p {
+        font-size: 16px;
+    }
+
+    .about-container {
+        height: 712px;
+    }
+
+    .contacts-page-container {
+        margin-top: 123px;
+    }
+
+    .download-container {
+        margin-bottom: 83px;
+    }
+}
+
+@media screen and (min-width: 1590px) {
+    .contacts-page-container {
+        margin-top: 123px;
+    }
+
+    .download-container {
+        margin-bottom: 82px;
+    }
+
+    .about-container {
+        height: 687px;
+    }
+}
+
+@media screen and (min-width: 1900px) {
+
+    .home-page-container {
+        display: flex;
+        margin-top: 200px;
+        margin-bottom: 155px;
+        justify-content: space-evenly;
+        width: 60%;
+    }
+
+    .columns-container {
+        margin-top: 262px;
+    }
+
+    .cards-container {
+        margin-top: 103px;
+        margin-bottom: 103px;
+    }
+
+    .project-button {
+        margin-bottom: 120px;
+    }
+
+    .contacts-page-container {
+        margin-top: 123px;
+    }
+
+    .download-container {
+        margin-bottom: 82px;
+    }
+
+    .about-container {
+        font-size: 1.3rem;
+        height: 712px;
+        padding-top: 100px;
+        padding-bottom: 57px;
+    }
+
+    .typing-cat-gif {
+        width: 500px;
+        height: 250px;
+    }
+
+    .contacts-page-container {
+        margin-top: 200px;
+    }
+
+    .contacts-title h4 {
+        font-size: 1.6rem;
+    }
+
+    .contacts-container p {
+        font-size: 1.3rem;
+    }
+
+    .download-container {
+        margin-bottom: 127px;
+    }
+
+    .download-title {
+        display: flex;
+        align-items: baseline;
+        font-size: 1.4rem;
+    }
+
+    .download-paragraph {
+        font-size: 1.25rem;
+    }
+}

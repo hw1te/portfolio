@@ -1,11 +1,11 @@
 import React from 'react';
-import "./Contacts.css"
 import LinkedIn from "../images/linkedin.svg"
 import GitHub from "../images/github.svg"
 import Gmail from "../images/gmail.svg"
 import WhatsApp from "../images/whatsapp.svg"
 import Curriculo from "../files/Gustavo Pospi - Currículo.pdf"
 import Resume from "../files/Gustavo Pospi - Resume.pdf"
+import "./Contacts.css"
 
 export default function Contacts() {
 

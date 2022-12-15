@@ -47,6 +47,7 @@
 }
 
 .list-body-buttons button {
+    color: var(--light-color);
     background-color: var(--hexagon-light);
     font-weight: bold;
     border: none;
@@ -61,12 +62,19 @@
 
 .list-body-buttons button:hover {
     cursor: pointer;
+    color: var(--hexagon-dark);
     border: thin solid var(--hexagon-dark);
     background-color: var(--light-color);
 }
 
-.list-body-buttons button:hover a {
-    color: var(--hexagon-dark);
-    ;
-    text-decoration: none;
+.warning-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.error-warning {
+    font-size: 0.75rem;
+    color: rgb(255, 66, 66);
+    margin-bottom: 5px;
 }

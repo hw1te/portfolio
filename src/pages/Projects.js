@@ -40,11 +40,10 @@ export default function Navbar() {
 
                 <div className="list-body-container">
                     <div className="list-body-paragraph">
-                        <h3>Trybewallet</h3>
-                        <p>Essa aqui é a descrição de um projeto falando um pouco sobre ele e o funcionamento</p>
+                        <h3>Docker Todo-List</h3>
                     </div>
                     <div className="list-body-buttons">
-                        <button><a href="https://github.com/hw1te/project-trybewallet" target="_blank" rel="noreferrer noopener">Ver repositório</a></button>
+                        <a href="https://github.com/hw1te/project-docker-todo-list" target="_blank" rel="noreferrer noopener"><button>Ver repositório</button></a>
                     </div>
                 </div>
 
@@ -52,62 +51,79 @@ export default function Navbar() {
 
                 <div className="list-body-container">
                     <div className="list-body-paragraph">
-                        <h3>TrybeTunes</h3>
-                        <p>Essa aqui é a descrição de um projeto falando um pouco sobre ele e o funcionamento</p>
+                        <h3>Store Manager</h3>
                     </div>
                     <div className="list-body-buttons">
-                        <button><a href="https://github.com/hw1te/project-trybetunes" target="_blank" rel="noreferrer noopener">Ver repositório</a></button>
+                        <a href="https://github.com/hw1te/project-store-manager" target="_blank" rel="noreferrer noopener"><button>Ver repositório</button></a>
                     </div>
-                </div>
+                </div >
 
                 {/* ###################################### */}
 
-                <div className="list-body-container">
+                < div className="list-body-container" >
                     <div className="list-body-paragraph">
-                        <h3>StarWars Planets Search</h3>
-                        <p>Essa aqui é a descrição de um projeto falando um pouco sobre ele e o funcionamento</p>
+                        <h3>API de Blogs</h3>
                     </div>
                     <div className="list-body-buttons">
-                        <button><a href="https://github.com/hw1te/project-starwars-planets-search" target="_blank" rel="noreferrer noopener">Ver repositório</a></button>
-                    </div>
-                </div>
+                        <a href="https://github.com/hw1te/project-blogs-api" target="_blank" rel="noreferrer noopener"><button>Ver repositório</button></a>
+                    </div >
+                </div >
 
                 {/* ###################################### */}
 
-                <div className="list-body-container">
+                < div className="list-body-container" >
                     <div className="list-body-paragraph">
-                        <h3>Solar System</h3>
-                        <p>Essa aqui é a descrição de um projeto falando um pouco sobre ele e o funcionamento</p>
+                        <h3>Trybesmith</h3>
                     </div>
                     <div className="list-body-buttons">
-                        <button><a href="https://github.com/hw1te/project-solar-system" target="_blank" rel="noreferrer noopener">Ver repositório</a></button>
-                    </div>
-                </div>
+                        <a href="https://github.com/hw1te/project-trybesmith" target="_blank" rel="noreferrer noopener"><button>Ver repositório</button></a>
+                    </div >
+                </div >
 
                 {/* ###################################### */}
 
-                <div className="list-body-container">
+                < div className="list-body-container" >
                     <div className="list-body-paragraph">
-                        <h3>Shopping Cart</h3>
-                        <p>Essa aqui é a descrição de um projeto falando um pouco sobre ele e o funcionamento</p>
+                        <h3>Trybers and Dragons</h3>
                     </div>
                     <div className="list-body-buttons">
-                        <button><a href="https://github.com/hw1te/project-shopping-cart" target="_blank" rel="noreferrer noopener">Ver repositório</a></button>
-                    </div>
-                </div>
+                        <a href="https://github.com/hw1te/project-trybers-and-dragons" target="_blank" rel="noreferrer noopener"><button>Ver repositório</button></a>
+                    </div >
+                </div >
 
                 {/* ###################################### */}
 
-                <div className="list-body-container">
+                < div className="list-body-container" >
                     <div className="list-body-paragraph">
-                        <h3>Tryunfo</h3>
-                        <p>Essa aqui é a descrição de um projeto falando um pouco sobre ele e o funcionamento</p>
+                        <h3>TFC</h3>
                     </div>
                     <div className="list-body-buttons">
-                        <button><a href="https://github.com/hw1te/project-tryunfo" target="_blank" rel="noreferrer noopener">Ver repositório</a></button>
+                        <a href="https://github.com/hw1te/project-trybe-futebol-clube" target="_blank" rel="noreferrer noopener"><button>Ver repositório</button></a>
+                    </div >
+                </div >
+
+                {/* ###################################### */}
+
+                < div className="list-body-container" >
+                    <div className="list-body-paragraph">
+                        <h3>Commerce</h3>
                     </div>
-                </div>
-            </div>
+                    <div className="list-body-buttons">
+                        <a href="https://github.com/hw1te/project-mongodb-commerce" target="_blank" rel="noreferrer noopener"><button>Ver repositório</button></a>
+                    </div >
+                </div >
+
+                {/* ###################################### */}
+
+                < div className="list-body-container" >
+                    <div className="list-body-paragraph">
+                        <h3>Car Shop</h3>
+                    </div>
+                    <div className="list-body-buttons">
+                        <a href="https://github.com/hw1te/project-car-shop" target="_blank" rel="noreferrer noopener"><button>Ver repositório</button></a>
+                    </div >
+                </div >
+            </div >
     }
 
     else {
@@ -120,79 +136,78 @@ export default function Navbar() {
                 <div className="list-body-container">
                     <div className="list-body-paragraph">
                         <h3>Trybewallet</h3>
-                        <p>Essa aqui é a descrição de um projeto falando um pouco sobre ele e o funcionamento</p>
                     </div>
-                    <div className="list-body-buttons">
-                        <button><a href="https://github.com/hw1te/project-trybewallet" target="_blank" rel="noreferrer noopener">Repositório</a></button>
-                        <button><a href="#" target="_blank" rel="noreferrer noopener">App</a></button>
+                    <div>
+                        <div className="warning-container">
+                            <p className="error-warning">Site indisponível !</p>
+                            <p className="error-warning">Para testar baixe o repositório</p></div>
+                        <div className="list-body-buttons">
+                            <a href="https://github.com/hw1te/project-trybewallet" target="_blank" rel="noreferrer noopener"><button>Repositório</button></a>
+                            <button>App</button>
+                        </div>
                     </div>
-                </div>
+                </div >
 
                 {/* ###################################### */}
 
-                <div className="list-body-container">
+                < div className="list-body-container" >
                     <div className="list-body-paragraph">
                         <h3>TrybeTunes</h3>
-                        <p>Essa aqui é a descrição de um projeto falando um pouco sobre ele e o funcionamento</p>
                     </div>
                     <div className="list-body-buttons">
-                        <button><a href="https://github.com/hw1te/project-trybetunes" target="_blank" rel="noreferrer noopener">Repositório</a></button>
-                        <button><a href="https://project-trybetunes-zeta.vercel.app/" target="_blank" rel="noreferrer noopener">App</a></button>
-                    </div>
-                </div>
+                        <a href="https://github.com/hw1te/project-trybetunes" target="_blank" rel="noreferrer noopener"><button>Repositório</button></a>
+                        <a href="https://project-trybetunes-zeta.vercel.app/" target="_blank" rel="noreferrer noopener"><button>App</button></a>
+                    </div >
+                </div >
 
                 {/* ###################################### */}
 
-                <div className="list-body-container">
+                < div className="list-body-container" >
                     <div className="list-body-paragraph">
                         <h3>StarWars Planets Search</h3>
-                        <p>Essa aqui é a descrição de um projeto falando um pouco sobre ele e o funcionamento</p>
                     </div>
                     <div className="list-body-buttons">
-                        <button><a href="https://github.com/hw1te/project-starwars-planets-search" target="_blank" rel="noreferrer noopener">Repositório</a></button>
-                        <button><a href="#" target="_blank" rel="noreferrer noopener">App</a></button>
-                    </div>
-                </div>
+                        <a href="https://github.com/hw1te/project-starwars-planets-search" target="_blank" rel="noreferrer noopener"><button>Repositório</button></a>
+                        <a href="https://project-starwars-planets-search-orcin.vercel.app/" target="_blank" rel="noreferrer noopener"><button>App</button></a>
+                    </div >
+                </div >
 
                 {/* ###################################### */}
 
-                <div className="list-body-container">
+                < div className="list-body-container" >
                     <div className="list-body-paragraph">
                         <h3>Solar System</h3>
-                        <p>Essa aqui é a descrição de um projeto falando um pouco sobre ele e o funcionamento</p>
                     </div>
                     <div className="list-body-buttons">
-                        <button><a href="https://github.com/hw1te/project-solar-system" target="_blank" rel="noreferrer noopener">Repositório</a></button>
-                        <button><a href="https://project-solar-system-murex.vercel.app/" target="_blank" rel="noreferrer noopener">App</a></button>
-                    </div>
-                </div>
+                        <a href="https://github.com/hw1te/project-solar-system" target="_blank" rel="noreferrer noopener"><button>Repositório</button></a>
+                        <a href="https://project-solar-system-murex.vercel.app/" target="_blank" rel="noreferrer noopener"><button>App</button></a>
+                    </div >
+                </div >
 
                 {/* ###################################### */}
 
-                <div className="list-body-container">
+                < div className="list-body-container" >
                     <div className="list-body-paragraph">
                         <h3>Shopping Cart</h3>
-                        <p>Essa aqui é a descrição de um projeto falando um pouco sobre ele e o funcionamento</p>
                     </div>
                     <div className="list-body-buttons">
-                        <button><a href="https://github.com/hw1te/project-shopping-cart" target="_blank" rel="noreferrer noopener">Repositório</a></button>
-                        <button><a href="https://project-shopping-cart-three.vercel.app/" target="_blank" rel="noreferrer noopener">App</a></button>
-                    </div>
-                </div>
+                        <a href="https://github.com/hw1te/project-shopping-cart" target="_blank" rel="noreferrer noopener"><button>Repositório</button></a>
+                        <a href="https://project-shopping-cart-three.vercel.app/" target="_blank" rel="noreferrer noopener"><button>App</button></a>
+                    </div >
+                </div >
 
                 {/* ###################################### */}
 
-                <div className="list-body-container">
+                < div className="list-body-container" >
                     <div className="list-body-paragraph">
                         <h3>Tryunfo</h3>
-                        <p>Essa aqui é a descrição de um projeto falando um pouco sobre ele e o funcionamento</p>
                     </div>
                     <div className="list-body-buttons">
-                        <button><a href="https://github.com/hw1te/project-tryunfo" target="_blank" rel="noreferrer noopener">Repositório</a></button>
-                        <button><a href="https://project-tryunfo-blond.vercel.app/" target="_blank" rel="noreferrer noopener">App</a></button>
-                    </div>
-                </div>
-            </div>
+                        <a href="https://github.com/hw1te/project-tryunfo" target="_blank" rel="noreferrer noopener"><button>Repositório</button></a>
+                        <a href="https://project-tryunfo-blond.vercel.app/" target="_blank" rel="noreferrer noopener"><button>App</button></a>
+                    </div >
+                </div >
+            </div >
     }
     return (
         <div>
