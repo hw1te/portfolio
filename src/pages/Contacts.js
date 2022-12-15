@@ -12,7 +12,8 @@ export default function Contacts() {
     return (
         <>
             <div className="contacts-page-container">
-                <div>{/* # Card 1 */}
+                {/* # Card 1 */}
+                <div className="contact-column">
                     <div className="contacts-container">
                         <div className="contacts-title">
                             <img className="logo-image" alt="LinkedIn" src={LinkedIn} />
@@ -38,7 +39,7 @@ export default function Contacts() {
                     </div>
                 </div>
 
-                <div>
+                <div className="contact-column">
                     {/* # Card 3 */}
                     <div className="contacts-container">
                         <div className="contacts-title">

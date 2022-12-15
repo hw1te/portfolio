@@ -10,6 +10,7 @@ body {
     background-image: url('Hexagon.svg');
     background-repeat: no-repeat;
     background-size: cover;
+    position: relative;
 }
 
 span {
@@ -29,7 +30,7 @@ span {
     display: flex;
     justify-content: space-between;
     margin: auto;
-    margin-top: 115px;
+    margin-top: 75px;
     margin-bottom: 70px;
     height: auto;
     width: 60%;

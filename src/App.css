@@ -5,6 +5,11 @@
     --hexagon-dark: rgba(3, 48, 93, 1);
 }
 
+* {
+    margin: 0;
+    padding: 0;
+}
+
 body {
     animation: transitionIn 1.2s;
 }

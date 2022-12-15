@@ -1,14 +1,15 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
 .contacts-page-container {
     display: flex;
+    flex-direction: column;
     margin: auto;
     justify-content: space-between;
     width: 80%;
-    margin-top: 65px;
+}
+
+.contact-column {
+    display: flex;
+    align-content: center;
+    height: 180px;
 }
 
 .contacts-container {
@@ -16,7 +17,6 @@
     width: 69%;
     font-size: 1.20rem;
     text-align: left;
-    margin-bottom: 2rem;
 }
 
 .contacts-title {

@@ -1,11 +1,5 @@
-* {
-    padding: 0;
-    margin: 0;
-}
-
-
 .about-container {
-    height: 575px;
+    height: 525px;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;

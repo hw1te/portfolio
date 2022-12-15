@@ -10,8 +10,8 @@
 .cards-container {
     width: 700px;
     margin: auto;
-    margin-top: 4rem;
-    margin-bottom: 4rem;
+    margin-top: 3.5rem;
+    margin-bottom: 3.5rem;
     display: flex;
     justify-content: space-between;
 }
@@ -94,11 +94,11 @@ img {
     --button_color: var(--light-color);
     --button_outline_color: var(--lighter-color);
     font-size: 1.25rem;
-    margin-bottom: 3rem;
     font-weight: bold;
     border: none;
     border-radius: var(--button_radius);
     background: var(--lighter-color);
+    margin-bottom: 10px;
 }
 
 .button_top {
