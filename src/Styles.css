@@ -40,7 +40,7 @@
     }
 
     .contacts-page-container {
-        margin-top: 123px;
+        margin-top: 50px;
     }
 
     .download-container {
@@ -48,7 +48,7 @@
     }
 
     .about-container {
-        height: 687px;
+        height: 655px;
     }
 }
 
@@ -85,7 +85,7 @@
 
     .about-container {
         font-size: 1.3rem;
-        height: 712px;
+        height: 711px;
         padding-top: 68px;
         padding-bottom: 57px;
     }
