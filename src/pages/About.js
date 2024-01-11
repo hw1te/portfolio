@@ -11,9 +11,9 @@ export default function About() {
                 <h3>Moro no estado de <span>São Paulo - Brasil</span></h3>
             </div>
             <div className="about-paragraph-container">
-                <p> Quando não estou trabalhando gosto de <span>assistir algo, jogar</span> ou <span>ler</span>. Todo dia vou na academia, de preferência de manhã, quando a temperatura está mais agradevel.</p>
+                <p> Quando não estou trabalhando gosto de <span>assistir, jogar</span> ou <span>ler</span>. Todo dia vou na academia, quando a temperatura está mais agradavel.</p>
                 <br />
-                <p><span>Tenho</span> uma <span>gata preta</span> que adotei quando era filhote, toda vez que estou no computador ela vem dormir perto de mim ou em cima da CPU.</p>
+                <p><span>Tenho</span> uma <span>gata preta</span>, ela gosta de sentar perto de mim quando estou fazendo algo.</p>
             </div>
         </div>
     )
