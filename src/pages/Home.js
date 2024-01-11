@@ -13,12 +13,12 @@ export default function Home() {
                     <h3>Desenvolvedor Full-Stack</h3>
                     <br />
                     <p className="home-paragraph">
-                        Oi, sou um <span>Desenvolvedor de Software</span>,
+                        Oi, sou um <span>Desenvovedor Web Júnior</span>,
                         <br />
                         seja bem-vindo ao meu portfólio, aqui você vai encontrar <span>todos</span> os <span>meus trabalhos</span>.
                         <br />
                         <br />
-                        Tenho como objetivo me aprofundar cada vez mais na área, e através dos meus projetos
+                        Tenho como objetivo ingressar na área, e através dos meus projetos pessoais
                         <br />
                         publicados você vai poder <span>acompanhar minha trajetória</span>.
                     </p>
